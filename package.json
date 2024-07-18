@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
     "lint": "eslint . --ext .ts"
   },
@@ -18,5 +19,8 @@
     "tsconfig-paths": "^4.2.0",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
